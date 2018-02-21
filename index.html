@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Unit 21 - Checkpoint</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <form id="all-forms">
+    <div>
+      <label for="email">Email Address: </label>
+      <input type="email" name="email" id="email">
+    </div>
+    <div>
+      <label for="password">Password: </label>
+      <input type="password" name="password" id="password">
+    </div>
+    <div>
+      <label for="github">Github Username: </label>
+      <input type="text" name="github" id="github" pattern="[a-z0-9]+" maxlength="39">
+    </div>
+    <div id="options">
+      <input type="radio" name="option" value="enterprise">Enterprise</input>
+      <input type="radio" name="option" value="pro">Pro</input>
+      <input type="radio" name="option" value="free" checked="checked">Free</input>
+    </div>
+    <div>
+      <input type="checkbox" name="checkbox" id="checkbox">
+      <label for="checkbox">Remember Me</label>
+    </div>
+    <div>
+      <input type="submit">
+    </div>
+  </form>
+</body>
+
+</html>
