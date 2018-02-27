@@ -19,7 +19,7 @@
     </div>
     <div>
       <label for="github">Github Username: </label>
-      <input type="text" name="github" id="github" pattern="[a-z0-9]+" maxlength="39">
+      <input type="text" name="github" id="github" pattern="^[a-zA-Z]([a-zA-Z0-9]|-{1})*[a-zA-Z0-9]$" maxlength="39">
     </div>
     <div id="options">
       <input type="radio" name="option" value="enterprise">Enterprise</input>
